@@ -156,75 +156,75 @@
 var dSeatAvg = 52;
 var rSeatAvg = 48;
 
-var displayProbDem =62.49;
-var displayProbTie =9.74;
+var displayProbDem =62.68;
+var displayProbTie =9.41;
 var displayProbGOP = 100 - (displayProbDem+displayProbTie);
 
 var index = 0;
 var dist =[
   {
     "DEM": 43,
-    "Prob %": 0.0067
+    "Prob %": 0.0088
   },
   {
     "DEM": 44,
-    "Prob %": 0.0148
+    "Prob %": 0.0135
   },
   {
     "DEM": 45,
-    "Prob %": 0.0226
+    "Prob %": 0.0211
   },
   {
     "DEM": 46,
-    "Prob %": 0.0323
+    "Prob %": 0.0329
   },
   {
     "DEM": 47,
-    "Prob %": 0.0489
+    "Prob %": 0.0498
   },
   {
     "DEM": 48,
-    "Prob %": 0.0688
+    "Prob %": 0.064
   },
   {
     "DEM": 49,
-    "Prob %": 0.0782
+    "Prob %": 0.0842
   },
   {
     "DEM": 50,
-    "Prob %": 0.0974
+    "Prob %": 0.0941
   },
   {
     "DEM": 51,
-    "Prob %": 0.1019
+    "Prob %": 0.1028
   },
   {
     "DEM": 52,
-    "Prob %": 0.105
+    "Prob %": 0.1058
   },
   {
     "DEM": 53,
-    "Prob %": 0.0947
+    "Prob %": 0.093
   },
   {
     "DEM": 54,
-    "Prob %": 0.087
+    "Prob %": 0.0869
   },
   {
     "DEM": 55,
-    "Prob %": 0.069
+    "Prob %": 0.0698
   },
   {
     "DEM": 56,
-    "Prob %": 0.0546
+    "Prob %": 0.0569
   },
   {
     "DEM": 57,
-    "Prob %": 0.0402
+    "Prob %": 0.037
   },
   {
     "DEM": 58,
-    "Prob %": 0.0289
+    "Prob %": 0.029
   },
   {
     "DEM": 59,
@@ -232,20 +232,20 @@ var dist =[
   },
   {
     "DEM": 60,
-    "Prob %": 0.0126
+    "Prob %": 0.0127
   },
   {
     "DEM": 61,
-    "Prob %": 0.0062
+    "Prob %": 0.0075
   }
 ];
 var states = [
-  {
+    {
     "State": "AL",
-    "DEM": 44.23,
-    "GOP": 52.77,
-    "DemProb": 0.2152,
-    "RepProb": 0.7848,
+    "DEM": 44.2,
+    "GOP": 52.8,
+    "DemProb": 0.2226,
+    "RepProb": 0.7774,
     "StateName": "Alabama",
     "DemCand": "Jones",
     "RepCand": "Tuberville",
@@ -255,8 +255,8 @@ var states = [
     "State": "AK",
     "DEM": 43.51,
     "GOP": 53.49,
-    "DemProb": 0.1457,
-    "RepProb": 0.8543,
+    "DemProb": 0.1455,
+    "RepProb": 0.8545,
     "StateName": "Alaska",
     "DemCand": "Gross",
     "RepCand": "Sullivan",
@@ -266,8 +266,8 @@ var states = [
     "State": "AZ",
     "DEM": 52.93,
     "GOP": 44.07,
-    "DemProb": 0.8512,
-    "RepProb": 0.1488,
+    "DemProb": 0.8489,
+    "RepProb": 0.1511,
     "StateName": "Arizona",
     "DemCand": "Kelly",
     "RepCand": "McSally",
@@ -288,8 +288,8 @@ var states = [
     "State": "CO",
     "DEM": 52.87,
     "GOP": 44.13,
-    "DemProb": 0.8272,
-    "RepProb": 0.1728,
+    "DemProb": 0.8265,
+    "RepProb": 0.1735,
     "StateName": "Colorado",
     "DemCand": "Hickenlooper",
     "RepCand": "Gardner",
@@ -299,8 +299,8 @@ var states = [
     "State": "DE",
     "DEM": 60.92,
     "GOP": 36.08,
-    "DemProb": 0.9928,
-    "RepProb": 0.0072,
+    "DemProb": 0.9921,
+    "RepProb": 0.0079,
     "StateName": "Delaware",
     "DemCand": "Coons",
     "RepCand": "Rep",
@@ -308,10 +308,10 @@ var states = [
   },
   {
     "State": "GA",
-    "DEM": 46.57,
-    "GOP": 50.43,
-    "DemProb": 0.367,
-    "RepProb": 0.633,
+    "DEM": 46.64,
+    "GOP": 50.36,
+    "DemProb": 0.3689,
+    "RepProb": 0.6311,
     "StateName": "Georgia",
     "DemCand": "Ossoff",
     "RepCand": "Perdue",
@@ -319,10 +319,10 @@ var states = [
   },
   {
     "State": "GA2",
-    "DEM": 45.41,
-    "GOP": 51.59,
-    "DemProb": 0.2709,
-    "RepProb": 0.7291,
+    "DEM": 45.26,
+    "GOP": 51.74,
+    "DemProb": 0.2661,
+    "RepProb": 0.7339,
     "StateName": "Georgia Special",
     "DemCand": "Dem",
     "RepCand": "Rep",
@@ -332,8 +332,8 @@ var states = [
     "State": "ID",
     "DEM": 38.86,
     "GOP": 61.14,
-    "DemProb": 0.0136,
-    "RepProb": 0.9864,
+    "DemProb": 0.0166,
+    "RepProb": 0.9834,
     "StateName": "Idaho",
     "DemCand": "Jordan",
     "RepCand": "Risch",
@@ -343,8 +343,8 @@ var states = [
     "State": "IL",
     "DEM": 61.86,
     "GOP": 38.14,
-    "DemProb": 0.9898,
-    "RepProb": 0.0102,
+    "DemProb": 0.9903,
+    "RepProb": 0.0097,
     "StateName": "Illinois",
     "DemCand": "Durbin",
     "RepCand": "Curran",
@@ -354,8 +354,8 @@ var states = [
     "State": "IA",
     "DEM": 49.05,
     "GOP": 47.95,
-    "DemProb": 0.5618,
-    "RepProb": 0.4382,
+    "DemProb": 0.5589,
+    "RepProb": 0.4411,
     "StateName": "Iowa",
     "DemCand": "Greenfield",
     "RepCand": "Ernst",
@@ -365,8 +365,8 @@ var states = [
     "State": "KS",
     "DEM": 46.55,
     "GOP": 50.45,
-    "DemProb": 0.3987,
-    "RepProb": 0.6013,
+    "DemProb": 0.3941,
+    "RepProb": 0.6059,
     "StateName": "Kansas",
     "DemCand": "Bollier",
     "RepCand": "Marshall",
@@ -376,8 +376,8 @@ var states = [
     "State": "KY",
     "DEM": 44.16,
     "GOP": 52.84,
-    "DemProb": 0.2034,
-    "RepProb": 0.7966,
+    "DemProb": 0.205,
+    "RepProb": 0.795,
     "StateName": "Kentucky",
     "DemCand": "McGrath",
     "RepCand": "McConnell",
@@ -387,8 +387,8 @@ var states = [
     "State": "LA",
     "DEM": 36.42,
     "GOP": 63.58,
-    "DemProb": 0.0039,
-    "RepProb": 0.9961,
+    "DemProb": 0.0045,
+    "RepProb": 0.9955,
     "StateName": "Louisana",
     "DemCand": "Other",
     "RepCand": "Cassidy",
@@ -398,8 +398,8 @@ var states = [
     "State": "ME",
     "DEM": 51.55,
     "GOP": 45.45,
-    "DemProb": 0.7437,
-    "RepProb": 0.2563,
+    "DemProb": 0.7433,
+    "RepProb": 0.2567,
     "StateName": "Maine",
     "DemCand": "Gideon",
     "RepCand": "Collins",
@@ -409,8 +409,8 @@ var states = [
     "State": "MA",
     "DEM": 63.6,
     "GOP": 36.4,
-    "DemProb": 0.9946,
-    "RepProb": 0.0054,
+    "DemProb": 0.9963,
+    "RepProb": 0.0037,
     "StateName": "Massachusetts",
     "DemCand": "Dem",
     "RepCand": "Rep",
@@ -418,10 +418,10 @@ var states = [
   },
   {
     "State": "MI",
-    "DEM": 52.67,
-    "GOP": 44.33,
-    "DemProb": 0.7857,
-    "RepProb": 0.2143,
+    "DEM": 52.31,
+    "GOP": 44.69,
+    "DemProb": 0.7735,
+    "RepProb": 0.2265,
     "StateName": "Michigan",
     "DemCand": "Peters",
     "RepCand": "James",
@@ -431,8 +431,8 @@ var states = [
     "State": "MN",
     "DEM": 54.53,
     "GOP": 45.47,
-    "DemProb": 0.8087,
-    "RepProb": 0.1913,
+    "DemProb": 0.8049,
+    "RepProb": 0.1951,
     "StateName": "Minnesota",
     "DemCand": "Smith",
     "RepCand": "Lewis",
@@ -442,8 +442,8 @@ var states = [
     "State": "MS",
     "DEM": 44.24,
     "GOP": 52.76,
-    "DemProb": 0.1456,
-    "RepProb": 0.8544,
+    "DemProb": 0.144,
+    "RepProb": 0.856,
     "StateName": "Mississippi",
     "DemCand": "Espy",
     "RepCand": "Hyde-Smith",
@@ -453,8 +453,8 @@ var states = [
     "State": "MT",
     "DEM": 46.67,
     "GOP": 50.33,
-    "DemProb": 0.3923,
-    "RepProb": 0.6077,
+    "DemProb": 0.3878,
+    "RepProb": 0.6122,
     "StateName": "Montana",
     "DemCand": "Bullock",
     "RepCand": "Daines",
@@ -464,8 +464,8 @@ var states = [
     "State": "NE",
     "DEM": 37.54,
     "GOP": 62.46,
-    "DemProb": 0.0079,
-    "RepProb": 0.9921,
+    "DemProb": 0.0071,
+    "RepProb": 0.9929,
     "StateName": "Nebraska",
     "DemCand": "Janicek",
     "RepCand": "Sasse",
@@ -475,8 +475,8 @@ var states = [
     "State": "NH",
     "DEM": 56.09,
     "GOP": 40.91,
-    "DemProb": 0.9374,
-    "RepProb": 0.0626,
+    "DemProb": 0.9382,
+    "RepProb": 0.0618,
     "StateName": "New Hampshire",
     "DemCand": "Shaheen",
     "RepCand": "Rep",
@@ -486,8 +486,8 @@ var states = [
     "State": "NJ",
     "DEM": 60.1,
     "GOP": 36.9,
-    "DemProb": 0.9951,
-    "RepProb": 0.0049,
+    "DemProb": 0.9959,
+    "RepProb": 0.0041,
     "StateName": "New Jersey",
     "DemCand": "Booker",
     "RepCand": "Mehta",
@@ -497,8 +497,8 @@ var states = [
     "State": "NM",
     "DEM": 57.29,
     "GOP": 42.71,
-    "DemProb": 0.9534,
-    "RepProb": 0.0466,
+    "DemProb": 0.9489,
+    "RepProb": 0.0511,
     "StateName": "New Mexico",
     "DemCand": "Ray Lujan",
     "RepCand": "Ronchetti",
@@ -506,10 +506,10 @@ var states = [
   },
   {
     "State": "NC",
-    "DEM": 51.63,
-    "GOP": 45.37,
-    "DemProb": 0.7731,
-    "RepProb": 0.2269,
+    "DEM": 51.74,
+    "GOP": 45.26,
+    "DemProb": 0.7837,
+    "RepProb": 0.2163,
     "StateName": "North Carolina",
     "DemCand": "Cunningham",
     "RepCand": "Tillis",
@@ -519,8 +519,8 @@ var states = [
     "State": "OK",
     "DEM": 42.09,
     "GOP": 57.91,
-    "DemProb": 0.0642,
-    "RepProb": 0.9358,
+    "DemProb": 0.0618,
+    "RepProb": 0.9382,
     "StateName": "Oklaholma",
     "DemCand": "Broyles",
     "RepCand": "Inhofe",
@@ -530,8 +530,8 @@ var states = [
     "State": "OR",
     "DEM": 63.16,
     "GOP": 36.84,
-    "DemProb": 0.9942,
-    "RepProb": 0.0058,
+    "DemProb": 0.9945,
+    "RepProb": 0.0055,
     "StateName": "Oregon",
     "DemCand": "Merkley",
     "RepCand": "Perkins",
@@ -541,8 +541,8 @@ var states = [
     "State": "RI",
     "DEM": 64.42,
     "GOP": 35.58,
-    "DemProb": 0.9976,
-    "RepProb": 0.0024,
+    "DemProb": 0.9963,
+    "RepProb": 0.0037,
     "StateName": "Rhode Island",
     "DemCand": "Reed",
     "RepCand": "Waters",
@@ -552,8 +552,8 @@ var states = [
     "State": "SC",
     "DEM": 44.66,
     "GOP": 52.34,
-    "DemProb": 0.1389,
-    "RepProb": 0.8611,
+    "DemProb": 0.1466,
+    "RepProb": 0.8534,
     "StateName": "South Carolina",
     "DemCand": "Harrison",
     "RepCand": "Graham",
@@ -563,8 +563,8 @@ var states = [
     "State": "SD",
     "DEM": 37.91,
     "GOP": 62.09,
-    "DemProb": 0.0086,
-    "RepProb": 0.9914,
+    "DemProb": 0.0085,
+    "RepProb": 0.9915,
     "StateName": "South Dakota",
     "DemCand": "Ahlers",
     "RepCand": "Rounds",
@@ -574,8 +574,8 @@ var states = [
     "State": "TN",
     "DEM": 36.04,
     "GOP": 63.96,
-    "DemProb": 0.0033,
-    "RepProb": 0.9967,
+    "DemProb": 0.0029,
+    "RepProb": 0.9971,
     "StateName": "Tennessee",
     "DemCand": "Bradshaw",
     "RepCand": "Haggerty",
@@ -585,8 +585,8 @@ var states = [
     "State": "TX",
     "DEM": 43.7,
     "GOP": 53.3,
-    "DemProb": 0.1609,
-    "RepProb": 0.8391,
+    "DemProb": 0.162,
+    "RepProb": 0.838,
     "StateName": "Texas",
     "DemCand": "Hegar",
     "RepCand": "Cornyn",
@@ -594,10 +594,10 @@ var states = [
   },
   {
     "State": "VA",
-    "DEM": 61.52,
-    "GOP": 38.48,
-    "DemProb": 0.9863,
-    "RepProb": 0.0137,
+    "DEM": 61.18,
+    "GOP": 38.82,
+    "DemProb": 0.9969,
+    "RepProb": 0.0031,
     "StateName": "Virginia",
     "DemCand": "Warner",
     "RepCand": "Gade",
@@ -607,8 +607,8 @@ var states = [
     "State": "WV",
     "DEM": 41.33,
     "GOP": 58.67,
-    "DemProb": 0.046,
-    "RepProb": 0.954,
+    "DemProb": 0.0438,
+    "RepProb": 0.9562,
     "StateName": "West Virginia",
     "DemCand": "Swearengin",
     "RepCand": "Moore Capito",
@@ -618,8 +618,8 @@ var states = [
     "State": "WY",
     "DEM": 38.23,
     "GOP": 61.77,
-    "DemProb": 0.0137,
-    "RepProb": 0.9863,
+    "DemProb": 0.0121,
+    "RepProb": 0.9879,
     "StateName": "Wyoming",
     "DemCand": "Ben-David",
     "RepCand": "Lummis",
@@ -1256,7 +1256,7 @@ text-decoration: none;
         background-color: gray;
     }
     #dist td{
-        border-right:2px solid gray;
+        border-right:1px solid #292929;
         font-family: 'Inconsolata';
         font-size: 9pt;
         font-weight: 100;
@@ -1265,10 +1265,10 @@ text-decoration: none;
     }
         #dist td:nth-child(4){
 padding:0px;
-border-bottom: 1px solid gray;
+border-bottom: 1px solid #292929;
     }
     #dist th{
-        border-bottom: 2px solid gray;
+        border-bottom: 2px solid #292929;
     }
     #rater{
         font-size:9pt;
